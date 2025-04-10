@@ -58,6 +58,8 @@ It may help if you simply cat a file instead of using an editor and copy/paste t
 cat iot.ipynb
 ```
 
+📄 View this file: [`iot.ipynb`](./iot.ipynb)
+
 If everything goes right, you should be able to view your tables and query them in a Jupyter Notebook!
 
 <h3>🔍 Kafka Topics in Action</h3>
@@ -99,3 +101,17 @@ If everything goes right, you should be ALSO able to view your tables and query 
     </td>
   </tr>
 </table>
+
+<br>
+
+## Final thoughts
+
+This is really cool. It worked as expected. Kafka topics exposed as Icerberg tables!
+
+Just remember to tear your environment down once you're done.
+
+```bash
+./services_destroy_all.sh
+```
+
+📄 View the script: [`services_destroy_all.sh`](./services_destroy_all.sh)

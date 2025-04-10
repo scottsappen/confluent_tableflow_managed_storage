@@ -1,4 +1,4 @@
-# Confluent + AWS - using Tableflow
+# Confluent + AWS - using Tableflow with Confluent Managed Storage
 
 <br>
 

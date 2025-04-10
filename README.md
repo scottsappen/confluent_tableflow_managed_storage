@@ -1,17 +1,17 @@
-# Confluent + AWS - using Tableflow with Confluent Managed Storage
+# Tableflow using Managed Storage in Confluent Cloud
 
 <br>
 
 # Overview
 
-The purpose of this repo is to let you get hands-on with this [example](https://docs.confluent.io/cloud/current/topics/tableflow/get-started/quick-start-managed-storage.html)
+This is a bit of a play on [Tableflow Quick Start with Managed Storage in Confluent Cloud](https://docs.confluent.io/cloud/current/topics/tableflow/get-started/quick-start-managed-storage.html)
 
-It's a great exercise for exposing Confluent Cloud kafka topics as Iceberg tables, but with a hands-on twist.
+It's a great exercise for exposing Confluent Cloud kafka topics as Iceberg tables, but with a tweak.
 
-If you want to just follow the website verbatim, that's fine. This repo does a slight modification of it:
-- instead of using the confluent datagen connector, you write your own python producer for mock iot event data
-- you create your own AVRO schema and topic and register it using the Confluent CLI
-- you will gain experience using the Confluent CLI and interacting with Schema Registry and AVRO formats
+If you want to just follow the website verbatim, that's fine. Otherwise, continue on reading:
+- instead lieu of the confluent datagen connector, mock data comes from a python producer to mimick IoT data
+- the use of a data contract is required so the datagen program creates an AVRO schema
+- this repo leverage the Confluent CLI
 
 If you get stuck, remember in the Confluent Cloud UI is the Confluent AI Assistant. It can not only answer questions, but generate code for you!
 

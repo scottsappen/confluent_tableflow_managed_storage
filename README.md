@@ -16,11 +16,11 @@ If you want to just follow the website verbatim, that's fine. Otherwise, continu
 If you get stuck, remember in the Confluent Cloud UI is the Confluent AI Assistant. It can not only answer questions, but generate code for you!
 
 In the link above regadring the original hands-on example from Confluent, there are 5 steps:
-Step 1: Create a topic and publish data
-Step 2: Enable Tableflow on your topic
-Step 3: Set up access to the Iceberg REST Catalog
-Step 4: Query Iceberg tables from Spark
-Step 5: Read Iceberg data from analytics engines (optional)
+- Step 1: Create a topic and publish data
+- Step 2: Enable Tableflow on your topic
+- Step 3: Set up access to the Iceberg REST Catalog
+- Step 4: Query Iceberg tables from Spark
+- Step 5: Read Iceberg data from analytics engines (optional)
 
 In this repo, the only thing you are changing is Step 1. So let's do that.
 

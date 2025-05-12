@@ -24,6 +24,8 @@ In the link above regadring the original hands-on example from Confluent, there 
 
 In this repo, the only thing you are changing is Step 1. So let's do that.
 
+The rest of the steps mirror the steps on the website so just follow along with those and do what it says. I provided some notes and screenshots just as a helper.
+
 <br>
 
 # Steps

@@ -24,7 +24,7 @@ In the link above regadring the original hands-on example from Confluent, there 
 
 In this repo, the only thing you are changing is Step 1. So let's do that.
 
-The rest of the steps mirror the steps on the website so just follow along with those and do what it says. I provided some notes and screenshots just as a helper.
+***The steps pretty much follow the website*** so just follow along with those and do what it says. I provided some notes and screenshots just as a helper.
 
 <br>
 
@@ -49,6 +49,14 @@ python mock_iot_events_generator.py
 ```
 
 📄 View the program: [`mock_iot_events_generator.py`](./mock_iot_events_generator.py)
+
+<br>
+
+## Step 2. Follow the website
+
+<br>
+
+## Step 3. Follow the website
 
 <br>
 
